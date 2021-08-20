@@ -15,7 +15,7 @@ function App() {
         <Switch>
           <ProductsProvider>
             <Nav />
-            <Route path="/homepage" component={HomePage} />
+            <Route path="/" exact component={HomePage} />
             <Route path="/webshop" component={WebShop} />
             <Route path="/contacts" component={Contacts} />
             <Route path="/product/:name" component={Product} />
