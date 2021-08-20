@@ -55,7 +55,7 @@ const Product = () => {
                     {products.filter(product => product.id === 1 || product.id === 3 || product.id === 5 || product.id === 7).map(product => (
                         <div key={product.id}>
                             <img src={product.imgSrc} className="model_image" />
-                            <Link to={`/product/${product.name}`} className="product_name"><p onClick={scrollTop}>{product.name}</p></Link>
+                            <Link to={`/History/product/${product.name}`} className="product_name"><p onClick={scrollTop}>{product.name}</p></Link>
                         </div>
                     ))}
                 </div>
