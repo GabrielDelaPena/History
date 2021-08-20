@@ -6,7 +6,7 @@ const HomePage = () => {
     return (
         <div className="home_page">
             <div>
-                <img src="/images/NEW-ITEMS-ADDED-TO-SALE-JUNE-2021-L-1.jpg" className="img_header" alt="img_header" />
+                <img src="/History/images/NEW-ITEMS-ADDED-TO-SALE-JUNE-2021-L-1.jpg" className="img_header" alt="img_header" />
             </div>
             <div className="home_gallery">
                 <Link to="/webshop">
