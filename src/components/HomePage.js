@@ -13,7 +13,7 @@ const HomePage = () => {
                     <div className="home_image">
                         <img className="home_gallery_img" src="/History/images/home_page_1.jpg" alt="home_page_1" />
                         <div className="image_overlay">
-                            <p className="image_text">Collections</p>
+                            <p className="image_text">Collections click here</p>
                         </div>
                     </div>
                 </Link>
