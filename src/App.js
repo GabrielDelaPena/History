@@ -16,10 +16,10 @@ function App() {
           <ProductsProvider>
             <Nav />
             <Route path="/History/" exact component={HomePage} />
-            <Route path="/History/webshop" component={WebShop} />
-            <Route path="/History/contacts" component={Contacts} />
-            <Route path="/History/product/:name" component={Product} />
-            <Route path="/History/shoppingcart" component={ShoppingCart} />
+            <Route path="/webshop" component={WebShop} />
+            <Route path="/contacts" component={Contacts} />
+            <Route path="/product/:name" component={Product} />
+            <Route path="/shoppingcart" component={ShoppingCart} />
           </ProductsProvider>
         </Switch>
       </div>

@@ -10,10 +10,10 @@ const Nav = () => {
             <h1>History</h1>
             <ul>
                 <li><Link to="/History/" className="nav_links">Home</Link></li>
-                <li><Link to="/History/webshop" className="nav_links">Web-Shop</Link></li>
-                <li><Link to="/History/contacts" className="nav_links">Contact Us</Link></li>
+                <li><Link to="/webshop" className="nav_links">Web-Shop</Link></li>
+                <li><Link to="/contacts" className="nav_links">Contact Us</Link></li>
                 <span className="cart_length">
-                    <li><Link to="/History/shoppingcart" className="nav_links">Cart</Link></li>
+                    <li><Link to="/shoppingcart" className="nav_links">Cart</Link></li>
                     {cartProducts.length ? (<p className="cart_quantity">{cartProducts.length}</p>) : ('')}
                 </span>
 

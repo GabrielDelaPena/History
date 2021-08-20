@@ -47,7 +47,7 @@ const ShoppingCart = () => {
                     </div>
                 </div>
             ) : (
-                <p className="cart_empty">Cart is Empty</p>
+                <p className="cart_empty">Cart is test Empty</p>
             )}
 
         </>
