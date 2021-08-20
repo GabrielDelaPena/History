@@ -11,7 +11,7 @@ const HomePage = () => {
             <div className="home_gallery">
                 <Link to="/webshop">
                     <div className="home_image">
-                        <img className="home_gallery_img" src="/images/home_page_1.jpg" alt="home_page_1" />
+                        <img className="home_gallery_img" src="/History/images/home_page_1.jpg" alt="home_page_1" />
                         <div className="image_overlay">
                             <p className="image_text">Collections</p>
                         </div>
@@ -19,7 +19,7 @@ const HomePage = () => {
                 </Link>
                 <Link to="/webshop">
                     <div className="home_image">
-                        <img className="home_gallery_img" src="/images/home_page_2.png" alt="home_page_2" />
+                        <img className="home_gallery_img" src="/History/images/home_page_2.png" alt="home_page_2" />
                         <div className="image_overlay">
                             <p className="image_text">Collections</p>
                         </div>
@@ -27,7 +27,7 @@ const HomePage = () => {
                 </Link>
                 <Link to="/webshop">
                     <div className="home_image">
-                        <img className="home_gallery_img" src="/images/home_page_3.jpg" alt="home_page_3" />
+                        <img className="home_gallery_img" src="/History/images/home_page_3.jpg" alt="home_page_3" />
                         <div className="image_overlay">
                             <p className="image_text">Collections</p>
                         </div>
