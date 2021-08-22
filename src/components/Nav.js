@@ -6,7 +6,7 @@ const Nav = () => {
     const { cartProducts } = useContext(PoductsContext)
 
     return (
-        <nav>
+        <nav> 
             <h1>History</h1>
             <ul>
                 <li><Link to="/History/" className="nav_links">Home</Link></li>

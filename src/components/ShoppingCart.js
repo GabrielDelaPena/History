@@ -24,7 +24,7 @@ const ShoppingCart = () => {
                             <div className="cart_desc">
                                 <p className="cart_prod_desc">${product.price}</p>
                                 <p className="cart_prod_desc">{product.name}</p>
-                                <span className="prod_sizes">
+                                <span className="prod_sizes" id="prod_sizes">
                                     <p className="size">size: {product.size}</p>
                                     <p className="prod_size_cart" onClick={() => productSize(product, xs)}>XS</p>
                                     <p className="prod_size_cart" onClick={() => productSize(product, s)}>S</p>
@@ -47,7 +47,7 @@ const ShoppingCart = () => {
                     </div>
                 </div>
             ) : (
-                <p className="cart_empty">Cart is test Empty test</p>
+                <p className="cart_empty">Cart is test Empty</p>
             )}
 
         </>

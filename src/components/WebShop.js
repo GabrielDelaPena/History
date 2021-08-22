@@ -56,9 +56,9 @@ const WebShop = () => {
                     }
                 }
                 ).map(product => (
-                    <div key={product.id}>
+                    <div key={product.id} className="product_container">
                         <img src={product.imgSrc} className="model_image" alt="product_image" />
-                        <Link to={`/product/${product.name}`} className="product_name"><p>{product.name}</p></Link>
+                        <Link to={`/product/${product.name}`} className="product_name"><p id="product_name">{product.name}</p></Link>
                         <p className="product_price">${product.price}</p>
                     </div>
                 ))}

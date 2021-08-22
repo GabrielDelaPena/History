@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
 
-const HomePage = () => {
+const HomePage = () => { 
     return (
         <div className="home_page">
             <div>

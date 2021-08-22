@@ -224,6 +224,8 @@ ul .footer_list {
     font-size: small;
 }
 
+/* Contact_Page */
+
 .contact_page {
     text-align: center;
     width: 50%;
@@ -395,27 +397,29 @@ hr {
         padding: 0;
         margin: 0;
     }
+
+    /* Home_Page */
+
     nav {
         text-align: center;
         margin: 0;
         padding: 0;
         display: flex;
         flex-direction: column;
+        height: auto;
     }
 
     nav ul {
         text-align: center;
         width: 100%;
-        margin: 0;
+        margin: 1rem 0 1rem 0;
         padding: 0;
         display: flex;
         flex-direction: column;
     }
 
-    .nav_links {
+    nav ul li {
         margin-top: 1rem;
-        text-decoration: none;
-        color: black;
     }
     
     .nav_links:hover {
@@ -423,7 +427,7 @@ hr {
     }
 
     .img_header {
-        margin: 2rem 0 0 0;
+        margin: 1rem 0 0 0;
         padding: 0;
         width: 100%;
         height: auto;
@@ -471,6 +475,210 @@ hr {
     .footer_quote {
         text-align: center;
         margin: 2rem 0 0 0;
+    }
+
+    .home_gallery {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    .home_image {
+        position: relative;
+        width: 70%;
+        margin: 1rem 5rem;
+    }
+
+    /* Web_Shop */
+
+    .filters {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .search_bar {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 1rem 0 1rem;
+        border: none;
+        border-bottom: 1px black solid;
+    }
+    
+    .filter_text {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0 0 0;
+    }
+
+    .women_models {
+        margin: 2rem 3rem;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    .model_image {
+        width: 70%;
+        margin: 4rem 0 0 4rem;
+    }
+    
+    #product_name {
+        margin: 2rem 0 0 0;
+        font-size: small;
+    }
+
+    .product_container {
+        margin: 1rem 0 1rem 0;
+    }
+
+    /* Contact_Page */
+
+    .contact_page {
+        text-align: center;
+        width: 100%;
+        margin: 5rem 0;
+    }
+    
+    .conatact_header {
+        margin: 2rem 0;
+        font-size: small;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    input {
+        margin: 1rem 6rem;
+        width: 50%;
+    }
+    
+    textarea {
+        height: 15vh;
+        width: 90vw;
+        margin: 2rem 1rem;
+    }
+    
+    #submit_button {
+        margin: 0 8rem;
+    }
+
+    /* Product_Page */
+
+    .prod_info {
+        margin: 3rem 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .single_product_img {
+        width: 80%;
+        margin: 0 4rem 4rem;
+    }
+    
+    .prod_desc {
+        width: 100%;
+        margin: 0 2rem;
+    }
+
+    .also_like_images {
+        display: flex;
+        width: 85%;
+        flex-direction: column;
+        margin: 2rem 0;
+    }
+
+    /* Carting_Shop */
+
+    .shopping_cart {
+        margin: 5rem 4rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cart_desc {
+        width: 100%;
+    }
+    
+    .cart_image {
+        width: 180px;
+    }
+    
+    .cart_prod_desc {
+        font-size: small;
+        margin: 1rem 0;
+    }
+    
+    .cart_total {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0 4rem 0;
+    }
+    
+    .total_price {
+        margin: 0 2rem;
+    }
+    
+    .cart_empty {
+        text-align: center;
+        margin: 40vh 0;
+    }
+    
+    .button_quantity_container {
+        margin: 1rem 4px;
+    }
+    
+    .button_quantity {
+        text-decoration: none;
+        border: 2px solid black;
+        cursor: pointer;
+        transition: all 0.4s;
+        text-align: center;
+        color: black;
+        padding: 0rem 0.5rem;
+        margin: 0 5px;
+    }
+    
+    .button_quantity:hover {
+        color: white;
+        background-color: black;
+    }
+
+    #prod_sizes {
+        margin: 1rem 0 2rem 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .size {
+        display: flex;
+        flex-direction: column;
+        margin: 0 1rem 0 1rem;
+    }
+    
+    .prod_size_cart {
+        border: 2px black solid;
+        margin: 1px 2px;
+        width: 40px;
+        cursor: pointer;
+    } 
+
+    .cart_total {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+
+    .total_price {
+        margin: 2rem 2rem;
     }
 
   }
