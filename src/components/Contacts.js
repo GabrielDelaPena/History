@@ -33,11 +33,11 @@ const Contacts = () => {
             <h1>Contacts Us</h1>
             <p className="conatact_header">Please fill in this form for more infromations.</p>
             <form>
-                <label>Full Name: </label>
+                <label>Full Name : </label>
                 <input type="text" value={name} onChange={updateName}/>
-                <label>Email: </label>
+                <label>Email : </label>
                 <input type="email" value={email} onChange={updateEmail}/>
-                <label>Message: </label>
+                <label>Message : </label>
                 <textarea name="" id="" cols="30" rows="10" value={message} onChange={updateMessage}></textarea>
                 <a className="button" type="submit" id="submit_button" onClick={onSubmit}>Submit</a>
             </form>
