@@ -16,7 +16,6 @@ const Nav = () => {
                     <li><Link to="/shoppingcart" className="nav_links">Cart</Link></li>
                     {cartProducts.length ? (<p className="cart_quantity">{cartProducts.length}</p>) : ('')}
                 </span>
-
             </ul>
         </nav>
     )
